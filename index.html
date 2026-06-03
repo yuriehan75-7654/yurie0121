@@ -37,7 +37,7 @@
 
     <script>
         const CLIENT_ID = '2a4445aa9ee94ce9a05641698df5c822';
-        const REDIRECT_URI = 'https://[당신의앱주소]/callback';
+        const REDIRECT_URI = 'https://yurie0121.vercel.app/callback';
         
         function spotifyLogin() {
             const authUrl = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=code&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&scope=user-read-private%20user-read-email%20user-top-read%20playlist-read-private`;
